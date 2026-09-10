@@ -10,12 +10,16 @@ subtotal = item1_price + item2_price + item3_price + item4_price + item5_price
 sales_tax = subtotal * 0.07
 total_cost = subtotal + sales_tax
 
+# This code rounds the sales tax to two decimal places so it can be displayed as a monetary value
+sales_tax = round(sales_tax, 2)
+# This code rounds the subtotal to two decimal places so it can be displayed as a monetary value
+subtotal = round(subtotal, 2)
 # This code rounds the total cost to two decimal places so it can be displayed as a monetary value
 total_cost = round(total_cost, 2)
 
 # This code displays the subtotal to the user
 print('Subtotal: $',subtotal)
 # This code displays the total sales tax to the user
-print('Sales tax: $',sales_tax)
+print('Sales tax (7%): $',sales_tax)
 # This code displays the total cost to the user
 print('Total: $',total_cost)
