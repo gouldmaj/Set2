@@ -8,5 +8,8 @@ item5_price = float(input("Enter the price of the fifth item: $"))
 # This code calculates the total cost of the five items with a 7% sales tax
 total_cost = (item1_price + item2_price + item3_price + item4_price + item5_price) * 1.07
 
+# This code rounds the total cost to two decimal places so it can be displayed as a monetary value
+total_cost = round(total_cost, 2)
+
 # This code displays the total cost to the user
-print('The total cost of your purchase is $',total_cost,'.')
+print('The total cost of your purchase is $',total_cost,)
