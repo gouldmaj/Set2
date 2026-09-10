@@ -13,6 +13,8 @@ total_cost = subtotal + sales_tax
 # This code rounds the total cost to two decimal places so it can be displayed as a monetary value
 total_cost = round(total_cost, 2)
 
+# This code displays the subtotal to the user
+print('Subtotal: $',subtotal)
 # This code displays the total sales tax to the user
 print('Sales tax: $',sales_tax)
 # This code displays the total cost to the user
