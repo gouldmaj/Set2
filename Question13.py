@@ -12,3 +12,5 @@ vines_amount = (row_length - 2 * end_post_assembly) / vine_distance
 
 # This code rounds the number of vines to the nearest whole number so it can be displayed as a whole number
 vines_amount = round(vines_amount)
+
+print("The number of vines that can be planted in the given row is:", vines_amount)
